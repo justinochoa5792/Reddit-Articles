@@ -1,0 +1,32 @@
+* {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: montserrat;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to right, #fe4880, #ffce00);
+  height: 15vh;
+}
+
+.articles article {
+  padding: 30px;
+}
+
+.articles div h2 {
+  color: black;
+}
+
+.articles div a {
+  text-decoration: none;
+}
+
+.articles div:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+.articles div:hover {
+  background-image: linear-gradient(to right, #fe4880, #ffce00);
+}
